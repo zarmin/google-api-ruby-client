@@ -24,7 +24,7 @@ namespace :gem do
     s.rdoc_options.concat ['--main',  'README.md']
 
     # Dependencies used in the main library
-    s.add_runtime_dependency('signet', '>= 0.4.4')
+    s.add_runtime_dependency('signet', '~> 0.4.5')
     s.add_runtime_dependency('addressable', '>= 2.3.2')
     s.add_runtime_dependency('uuidtools', '>= 2.1.0')
     s.add_runtime_dependency('autoparse', '>= 0.3.3')
